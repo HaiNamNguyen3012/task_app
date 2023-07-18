@@ -9,7 +9,7 @@ class CongViec extends Model
 {
     use Notifiable;
 
-    protected $table = 'congviec';
+    protected $table = 'cong_viec';
 
     public $fillable = [
         'id',
@@ -20,8 +20,6 @@ class CongViec extends Model
         'lap_lai',
         'chu_thich',
         'file',
-        'khach_hang_id',
-        'khach_hang_chu_thich',
         'phan_tram_hoan_thanh',
         'trang_thai',
         'start_at',
